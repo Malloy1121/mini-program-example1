@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "小程序学习",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "blue",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ccc",
+    "borderStyle": "black",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "static/wechat_default.png",
+        "selectedIconPath": "static/wechat_active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "text",
+        "iconPath": "static/address-book.png",
+        "selectedIconPath": "static/address-book_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}
